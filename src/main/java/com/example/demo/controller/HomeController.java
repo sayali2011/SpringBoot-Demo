@@ -10,4 +10,9 @@ public class HomeController {
 	public String getMessage() {
 		return "Hare Krishna";
 	}
+	
+	@GetMapping("/bye")
+	public String getByeMessage() {
+		return "Hari Bol";
+	}
 }
